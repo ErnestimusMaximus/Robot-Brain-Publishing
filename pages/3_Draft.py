@@ -33,5 +33,5 @@ if book_title:
     st.write(f"Book Title: {book_title}")
 
 # Get list of Assistants from OpenAI API
-assistants = api.list_assistants(st.secrets("api_key"))
+assistants = api.list_assistants(st.secrets["openai_api_key"])
 st.write(assistants)
