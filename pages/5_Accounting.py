@@ -5,7 +5,7 @@ st.title('Operating Expenses Tracker')
 
 # Hardcoded expenses with type of payment
 expenses = [
-    {"Type": "API", "Amount": 20.00, "Date": "2024-06-01", "Payment Type": "Recurring"},
+    {"Type": "API", "Amount": 10.53, "Date": "2024-05-31", "Payment Type": "Recurring"},
     {"Type": "Google Workspace", "Amount": 28.80, "Date": "2024-06-01", "Payment Type": "Recurring"},
     {"Type": "Domains", "Amount": 24.00, "Date": "2024-06-01", "Payment Type": "One-Time"},
 ]
