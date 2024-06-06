@@ -26,11 +26,11 @@ selected_genre = st.selectbox("Select the Genre you want to write:", genres)
 st.write(f"You selected: {selected_genre}")
 
 # Add a text input for Book Title
-book_title = st.text_input("Enter the Book Title:")
+# book_title = st.text_input("Enter the Book Title:")
 
 # Display the Book Title and selected genre
-if book_title:
-    st.write(f"Book Title: {book_title}")
+# if book_title:
+#     st.write(f"Book Title: {book_title}")
 
 # Conditional dropdown for available authors if "Self-Help" is selected
 if selected_genre == "Self-Help":
@@ -42,4 +42,4 @@ if selected_genre == "Self-Help":
 
 # Get list of Assistants from OpenAI API
 assistants = api.list_assistants(st.secrets["openai_api_key"])
-st.write(assistants)
+# st.write(assistants)
