@@ -1,4 +1,5 @@
 import streamlit as st
+import api
 
 st.title('Book Draft')
 
@@ -31,3 +32,4 @@ book_title = st.text_input("Enter the Book Title:")
 if book_title:
     st.write(f"Book Title: {book_title}")
 
+api.say_hello()
