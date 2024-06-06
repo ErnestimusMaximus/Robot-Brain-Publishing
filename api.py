@@ -2,5 +2,11 @@ from openai import OpenAI
 import time
 import streamlit as st
 
-def say_hello():
-    st.write("hello world")
+def list_assistants(api_key) -> list:
+    client = OpenAI(api_key=api_key)
+
+    my_assistants = client.beta.assistants.list(
+        order="desc",
+        limit="20",
+    )
+    return my_assistants.data

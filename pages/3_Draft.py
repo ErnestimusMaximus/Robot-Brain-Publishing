@@ -32,4 +32,6 @@ book_title = st.text_input("Enter the Book Title:")
 if book_title:
     st.write(f"Book Title: {book_title}")
 
-api.say_hello()
+# Get list of Assistants from OpenAI API
+assistants = api.list_assistants(st.secrets("api_key"))
+st.write(assistants)
