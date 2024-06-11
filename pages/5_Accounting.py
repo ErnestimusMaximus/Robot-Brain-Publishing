@@ -57,6 +57,7 @@ wishlist = [
     {"Item": "Otter.ai", "Estimated Cost": 90.00, "Payment Type": "Recurring"},
     {"Item": "ChatGPT Workspace", "Estimated Cost": 90.00, "Payment Type": "Recurring"},
     {"Item": "KDSpy", "Estimated Cost": 69.00, "Payment Type": "One-Time"},
+    {"Item": "Publisher Rocket", "Estimated Cost": 97.00, "Payment Type": "One-Time"},
 ]
 
 # Convert wishlist to a DataFrame
